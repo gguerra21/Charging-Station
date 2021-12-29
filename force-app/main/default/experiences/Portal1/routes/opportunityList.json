@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "b9051518-9e89-404a-98be-c0b4bca57fda",
+  "appPageId" : "2aaa669e-9c0e-426e-8582-a633444b7271",
+  "configurationTags" : [ ],
+  "id" : "819ad4dc-c25a-4710-87a0-2a7f88212fe0",
+  "label" : "Opportunity List",
+  "routeType" : "list-006",
+  "type" : "route",
+  "urlPrefix" : "opportunity"
+}

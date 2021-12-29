@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneName>First Response</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <timeTriggers>
+            <actions>
+                <name>Case.SLA_violated3</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneName>Close Case</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <timeTriggers>
+            <actions>
+                <name>Case.Email_Alert_notifying_support_agents_to_solve_the_case2</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>-8</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Case.SLA_violated4</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

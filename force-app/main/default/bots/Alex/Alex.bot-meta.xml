@@ -1,0 +1,3251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>Alex</label>
+        <mlIntents>
+            <developerName>Check_the_status_of_an_order_Intent</developerName>
+            <label>Check the status of an order</label>
+            <mlIntentUtterances>
+                <utterance>What&apos;s the status of my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you show me my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me what date that my product will be shipped?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of the order that i just placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you check the status of my order that i just submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my order shipped yet</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check on the status of my order from yesterday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to check my current status that i have submitted previous</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you please check the current status of an order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status on the cat food i ordered yesterday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please pull up my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What’s happening with my product</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What&apos;s the status of my current order from funimation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me the status of the order i submitted yesterday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How long when my recent order take to arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you provide me an update on my purchase?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will i get my package</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i check the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me where my last order is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my order been processed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know the status of an order i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status of the last order i made</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please get me the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Status of my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my open order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my order been processed yet</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my previous order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello can you tell me when i should be expecting my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What&apos;s the current status of this order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello i need to track the status of my order can you help me with that?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please give me an update on my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me when the last order was placed on my account</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Status update on my submitted orders</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to check on the status of order 20045</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Status on my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the status on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get an update on something i have already ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When are the tennis shoes i ordered scheduled to be delivered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tell me the most recent status of my order from last month</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Current status of an order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where&apos;s my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you help me check the status of the order that i placed yesterday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get information about my recent order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please give me the status of an recent order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hi i want to know the status of my order placed on october 9</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a current status update for my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my order shipped</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me the updates about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Are there any updates on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Current order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my order ship</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tell me the updated status of my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I placed order couple of days ago and wanted to know update about it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get a tracking number or information on my order that was placed tuesday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check the status of my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status on my previously submitted order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide the latest information on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell what is going on with an order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check the current status of a previous order i submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My order was placed on this date when should i expect delivery</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my order from last week being sent soon</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to know the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to see the status of this order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to check the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What&apos;s going on with my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please get me information on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to check on the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to check on the status of the order i made</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When&apos;s my order supposed to get here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to follow up on the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please get my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to check recent order submissions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello can you please tell me when my shipment will arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my most recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me the current status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you show me the status update on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please provide me an update regarding my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me when my product was shipped?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me an update on the purchase that i made last friday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me an update on the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i have the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you please tell me something on my order that i previously ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my package</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Order status please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check the status of my order from tuesday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please update me on my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my order which i have done previously</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please have an update of the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need an update on the toilet paper i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to see any order updates</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get an update on my last order placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me a status update on my old orders</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What’s the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me the current status of my latest order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me the status of the order i placed yesterday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will this order get to my home</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I made an order a few weeks and haven&apos;t received any notice</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Status of an order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I ordered a product today but i dont know if it went through can you give me an update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my order ready to be picked up</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am inquiring to get an update on the status of an order that i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What status is my latest order in</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of last week&apos;s order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the status of the headphones i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like an update on the progress of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to update the shipping address on my order, please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello can i get an update on the status of my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please provide me with a status update on my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get the status update on my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me the status or my latest order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have been waiting for an extended period of time can you give me an update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please provide me with the shipping status of my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Show me the status of my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my order from earlier</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am needing a status update on a previously ordered product</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my order be shipped</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What’s the status on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like a status update on a previous order i submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i get the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the estimated delivery date on the book i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to check on status of my first order from august</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello, i would like a status update on my order. thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where&apos;s the order i ordered last month</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status on the order that i made last week</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Cab you please give me update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please let me view my previous orders</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need a status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me where my order is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me the status of an order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hi what is the status of the cookware set i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me when my order is being shipped</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me an update of what i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please get an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i find the status of an order placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to know where my order is at</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I now need an update on my previous order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the status on order number 4588888</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me a status of my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me what&apos;s going on with my current order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please have an update on my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Status update on previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please provide me with status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the latest information on one of my earlier orders</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Are you able to update me on what i ordered before</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like a status update on some that i previously ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When should i expect arrival</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check on order ac7653102020</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to see the status of my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i have an update on this order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want you to check the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Do you have any info on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i have a status update on my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me a status update on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Order status update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get the status of my order for me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please give me a status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my old order completed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My order has not shown any updates and i would like to know where it is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me an update on my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i have the status of the order i placed on tuesday</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my item arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When is my order expected to arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please pull up the order i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me an update on the product i ordered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the tracking number for the item i ordered last week</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me an update on my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me what the current status of my order is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me the current status of my order previously submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the expected delivery date</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please provide a status update for my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know what&apos;s happening with my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i check my current status which i have submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please know the current status regarding the order i submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tell me what is going on with my cat food order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Show me my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the updated status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check the status of my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me the current status of order number 5048d97f</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I’d like to view previous order activity</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you show me the current status of my most recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me if the order i submitted earlier has been shipped</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the progress of my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to know when my order is completed?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to check my last order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is the product i ordered last week</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my order out for delivery</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am inquiring about the status of an order that i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there an update to the status of my latest order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my current order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check on my current order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me where my order is currently located</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check on my order&apos;s status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check the status of my previous order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello i would like to check on the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me the status of my recently submitted order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide the current status of my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status on my latest order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I was expecting my order and have not received it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide me order details on my last place order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please show me my order&apos;s status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get an update on the order i put in not too long ago</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will the gaming console i ordered yesterday be ready to be shipped out</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to get information about an order i&apos;ve already submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my order processing</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What time are the groceries supposed to be delivered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Are there any updates on the status of my original order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me the current status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Update order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my order arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me my current status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i check the current status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell what is going on with the order that i placed on november first</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my recent order been shipped?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Current status of order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know what my order status is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my order number amz09</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please find the most recent update for my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there an estimated time of arrival</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to know the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me what my order status is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Find my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my items ordered be back in stock</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need an update on my order status now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>The order was marked delivered but am unable to locate</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give update about my yesterday order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my order shipped yet i haven&apos;t received any email updates</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to see the status of my last order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check status of a previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide me a with a current status of my previously submitted order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have an earlier order can you give me an update on that</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want an update on an order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please check the status of my previous order that i submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How can i avoid this error next time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need information about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i have information on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me the status of the order i made</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of my order i already submitted?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What&apos;s happening with my order right now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i have an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me the status of my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is my current order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide me a current status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you please tell me if my order is ready</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please provide me with an update on my ongoing order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check recent submissions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the shipping information for my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please direct me to my order confirmation page</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please open status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will i receive my merchandise from your company</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status on the blue blouse that i ordered two weeks ago</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide me details regarding the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please help me with an order i just submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my package arrived yet</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Provide my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I haven&apos;t received my order from last week can you check on it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the current status of my most recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get the updates on my previously order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Are there any updates regarding my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me an update on what time the groceries i ordered will arrive</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Show me what&apos;s going on with my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me the status on my most recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status update for order number 6732e5b5</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me more about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Would you show me the status of the last order i placed on target</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you tell me if the order i placed earlier has been shipped</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status of the order i recently submitted</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I haven&apos;t heard anything about my purchase, can you help?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me an order update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to check on my order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is the order i put in this morning</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When can i expect delivery</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to get an update on the status of an order i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me updated status details on the order i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please update me on my order of past order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me an update on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me updated status on last week&apos;s order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me if the computer i ordered is in transit</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please let me know the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i cancel an item from my previous order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello i would like an update on the status of my previous order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know the status on the order i placed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me the status update on my recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I recently ordered something and haven&apos;t received a confirmation email on the status can you help?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I still have not received my order please advise on tracking details</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my last order be shipped to me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i see status for order number c71afdfa</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Do you have an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will the family pajama set i ordered 2 days ago be sent out</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will my grocery order be delivered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to get a status update on a previously submitted order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you tell me when my order will ship</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please provide the tracking number for the shipment</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to know the status of order number 9f611fdb</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you provide an update on my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where&apos;s the order that i ordered for mom</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to know the update of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would want a status update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you direct me to the status of my previous orders?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me the status order number 1236548</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Order status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the status of a recent order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please tell me the status of the smoke alarms i ordered june 17</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the most recent update of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to know what is the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>When will i receive my package</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Find my order please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am inquiring about the status of an order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is it back in stock now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please give me the current status of my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>The order was supposed to ship express shipping and has not arrived yet</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to track my order status please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My order has been sitting idle for days can i get an update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like a status update on my last purchase please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check status update on previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have an order from before can you give me an update on it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need the most recent information on something i ordered in the past</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the status update on my previous order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is taking so long</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to check on order ac7653102020</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Do you have the status of my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you give me an update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where is my order from earlier at</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please check the status of my order?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me an update about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like a status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to check my order status please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you check the status of or number 2648751</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you provide me with a status update on my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i get refunded for something already delivered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Order update please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m having difficulty with my order and would like a status update</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check recent orders</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know where my order is</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please see the tracking details of my last order</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>End_Chat_Intent</developerName>
+            <label>End Chat</label>
+            <mlIntentUtterances>
+                <utterance>Thank you goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end this chat session for me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you and goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks that is all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i need for today thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to exit our conversation now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for all of your help! have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That’s all i needed to know for this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to end the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i need thank you for your assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Have a great day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you, have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok thank you so much good bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your assistance good-bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That will be all for now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you that&apos;s all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am now leaving the chat window</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ending chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to end the chat now, thank you!</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you so much for all of your help i really appreciate it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end my current chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I will talk to you tomorrow</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate your time and information thank you for everything and have a wonderful night</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have been very kind that is all i will be needing</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help today in looking at my account</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you that is all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t need any further assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end this call please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help, have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help today with my questions. that is all i have questions about, thank you and have a nice day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done talking good night</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please tell me more about the product your have</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i needed help with thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done for today. thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That was all i needed thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ending my chat now thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have to go now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i needed thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to end this conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i needed see ya</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Issue is resolved</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you that is all the information i needed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am now requesting to end this conversation please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please terminate this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your service today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok i&apos;m done thank you going to end this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i needed thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have been helpful thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have nothing else to speak about so let&apos;s end the chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished now thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i need goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i need for today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That will be all thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you please end chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help and have a great day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for everything bye chatbot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end my session now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you chatbot please end my session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end the chat now please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s it bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for helping me today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all, thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you so much for your time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to terminate this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you and good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you see if everything is correct so i can get off here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Bye bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve taken care of everything for me thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end this conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>It was very nice chatting with you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>There is nothing else i need right now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have nothing else to discuss</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks i don&apos;t need any more help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodbye!</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end the current chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks! goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I’m done with this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done with this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>No i don&apos;t need anymore assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Close this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>No there is nothing else goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m finished</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you that is all goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Nothing else is needed good-bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you i have all information needed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Okay i&apos;m done</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am signing off now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t have any more questions so i&apos;m ending the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for the order update, i&apos;ll be leaving the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you so much for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please finish this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m leaving now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m all set with your help thank you for resolving my issue have a good night</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have be helpful that is all i will be needing at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your service today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That was all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Good bye chat bot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t have any further questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Shut down</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How to end chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end this conversation now please and thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I learned what i needed thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have been very helpful, have a nice day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have addressed all of my issues</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your help, that is all i need today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;ll talk to you tomorrow good bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>We&apos;re done here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to end now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s everything i needed goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have everything i needed thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your help please end chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t want to chat anymore</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all my questions bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have no further questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would now like to end the current conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have no further questions and am going to disconnect</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok thank you i&apos;d like to end this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve answered all of my questions thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This concludes my questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I think we are done here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end the chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your time to fix my issues to my satisfaction</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That was all the questions i have for now end chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That answered all my questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your assistance but that is all i need for today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;ll be all thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>It&apos;s working now. thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That was all i needed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you chatbot have a good night</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Exit chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you very much that&apos;s all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please end the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please end this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your help goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Okay, thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate all of the help that you have given me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you end this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Okay goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done with this chat and we can end it</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve been a great help have a great day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m finished with this conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you so much for your time and help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have nothing else to talk about at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodbye that&apos;s all i needed</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please end this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for everything. bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this chat please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to exit this chat please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>No that&apos;s all thank you for your service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodbye and thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate all your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Stop this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to end this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End session now please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Good bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That will be all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have everything i need thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please end the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you that will be all the help i need</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Okay i have the information i need</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am exiting the chat session thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m going to end the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for your help, i&apos;ll be leaving the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you so much i don&apos;t have anymore questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to end this chat session now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to go now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for all the help have a wonderful night goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have been very helpful thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your assistance in helping me today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok i&apos;m done now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i need thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you all my questions have been answered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That’s all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished and would like to finish this call</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you my problem is resolved</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you, bye-bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t have any more questions at this time. thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Talk to ya tomorrow, bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i needed to know</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please let me know more about your service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That answered my question thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for assisting me today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Signing off now thank you goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodbye chatbot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to finish this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks and good bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t have any other questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to stop this conversation now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me to customer service to talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I got the needed help and now i need to leave</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for helping me going to close the window</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve answered my questions thank you for your time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This concludes my chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t have any other questions thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s what i needed goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have nothing else to speak about so end the chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for the help bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have the information i need end chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Those we&apos;re all of my questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help that is all i need</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for answering my question goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>It was a nice conversation, thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all thank you goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you terminate this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done talking to you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve been very helpful thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve been super helpful for a robot thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That would be all for today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all for today and i would like to end the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate all the help thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end the current session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done now thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am finished bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate your help have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Your help was appreciated</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I appreciate the time that you spent helping me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you end this chat session for me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you make sure everything is correct so i can go take a nap</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok thanks for the help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Stop the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all i need for now thank you for your help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to finish this chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you very much for your the product and services</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can we exit this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i need at this time bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please close out the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;ve received all of the help i need. thanks!</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for the help with this session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i needed thank you for your service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have been very helpful</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This was helpful, good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to stop chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks a lot thats all</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all for now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is everything</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My issues were covered</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This will be all thank you ending chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for the help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m ending this chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My issue has been resolved, i&apos;m going to close the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to close this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have another call</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>If you can&apos;t help with my i am all set with anything else thank you for your time goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your time that is all for now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help with my coat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Bye bye night night</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am not needing any more assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Talk to you later</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please and chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you i would like to end this call now please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You have provided much help thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have to go now, i&apos;ll talk to you tomorrow</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have no other questions transfer me to the payment system</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Have a nice day, that is all i need for now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Goodnight i&apos;ll talk to you soon</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Nothing more</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to stop the chat now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That is all i need today, thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You resolved my concern thank you and goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done with the current chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Stop</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve helped me greatly thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Signing off now thanks again for your help today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to end this conversation</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>See ya thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t want to continue</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Great thank you goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am done with the conversation at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I do not need anything else</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please end the chat my problem solved</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Going to close this chat now so i can call the live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for your help that is all i needed today</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I no longer need assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t need any further help bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Take care and have a good day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have nothing else to speak about so end the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That was helpful</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>No more questions goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I have no further questions bye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t need anything else thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you for helping me goodbye</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thanks for you support. that&apos;s all for the day</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you terminate this chat session</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;m done talking to you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Terminate chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;ve been very helpful</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all no more questions</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all if i have any addition questions i&apos;ll be sure to reach out</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>That&apos;s all for today, thanks</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Thank you i am finished</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Ok i&apos;m good</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How do i end the chat</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Main_Menu_Intent</developerName>
+            <label>Main Menu</label>
+            <mlIntentUtterances>
+                <utterance>Main Menu</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Menu</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Restart</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Go Back</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Start Over</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Transfer_To_Agent_Intent</developerName>
+            <label>Transfer to agent</label>
+            <mlIntentUtterances>
+                <utterance>Please give me to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transfer me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to an agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you please connect me to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you please connect me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a live representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to talk to a living person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you get me over to a live agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transferred my chat to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please let me speak to a human at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please speak to a person?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transfer me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human agent now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I’d like to speak to a person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please can i talk to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you transfer me to a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please may i speak to someone who isn&apos;t a robot?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you switch me to a live person to talk about my purchase</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to speak with a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i have a customer service agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will like to talk to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me with a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a live agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a live customer service person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transfer me to a human agent?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a live agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Yes please transfer me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please speak to a live representative?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This chatbot is not helpful please direct me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transfer me to customer service for assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Let me speak to an agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live agent so i can get further assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak with a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer to representative in retention</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to someone in about the issue i am having</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak with a live representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to an agent now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please connect me with a representative?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i chat with a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you please transfer me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Talk to agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the best phone number to talk to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to someone who can help me with my issue</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please connect me with customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I think i&apos;m going to need to speak to a live agent can you give me a phone number to call</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you send me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a real person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me to a representative please?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Live agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please connect me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please get a real person to help me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i be connected to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak to a non-robot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Representative please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to talk to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to someone who works here</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please be transferred to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me with a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you please connect me to a live person right now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a customer service agent to speak to</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please have an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a human so i can understand what they are telling me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a way to get a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to chat with a human to help me more</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would prefer to chat with a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i chat with a human instead of this chatbot please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please be transferred to a live human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a human right now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to an actual person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Representative, please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please chat with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a human immediately</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I’d like to speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak to a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please speak to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to an agent?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please send me to a live rep thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me with a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live associate</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me with customer service now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer to live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i speak to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to speak to a live customer service person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to chat with a human agent, please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a representative on the phone please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a human now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please connect me with a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>It is difficult to describe my issue in writing can i please speak with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak with someone in customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to an agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to deal with an actual person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a live representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to talk to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Human instead of chatbot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to chat with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a live agent that i could speak with instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak with a phone agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>You&apos;re just not understanding me, please let me talk to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to an real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you transfer me to a live agent?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I don&apos;t want to speak with a robot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a real person?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please transfer this chat to a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i be connected to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a customer service agent now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to chat with a human now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me with a real human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I wish to speak to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a salesperson at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello can i talk with a customer service representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me with an agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak with a live agent so i can explain my issue it is very lengthy and i don&apos;t think you&apos;ll understand</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Hello may i please speak with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please send me to a customer service representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please let me speak with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to a customer service representative to complete this call</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to chat with a customer service person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a representative available</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me with an associate please?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a person i can talk to</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Get me a real person to help me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please get me a real person instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please be directed to a customer representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i talk to a person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to human resources</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Live representative please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could you please transfer me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to a real person!</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak with a human representative now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please talk to a human agent about my order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you pass me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a human employee</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a human agent that could help me instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer my chat to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i speak to someone in customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a real person right now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please if you can let me speak with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to an agent immediately</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you send me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to talk to a human instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a technical support agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to talk to someone please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a manager</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Talk to a real human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How do i get a real person to talk to about my purchase</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Customer service agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get a customer service representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me to a human agent instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to be transferred to a human agent, please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a live agent as soon as possible</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Yes i would like to be speak to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to an agent now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a live agent?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I prefer chatting to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a customer service agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Live chat with a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a live support technician</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me from chatbot to human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak a live agent now please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak with an agent on the phone</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak with a person at the actual store</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak to a live person about this issue?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you transfer me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to an agent please?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to someone else please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to a customer service support specialist</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to chat with somebody</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to an operator</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to speak to an actual person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak to a representative at this time please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I am unable to type my explanation and would like to talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please have an agent connect with me now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to speak to a real person can you have an agent call me at the number on my account</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a human agent thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Would you please get a representative to help me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to a person about this</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i talk to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to talk to an associate</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i please speak with a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to be connected to an actual human being</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me to someone</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a real person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>May i be directed to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i please talk to an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a real person please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Real person now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you please show me the number for customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak with a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to speak with a real person regarding my problem</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a customer service agent for assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Will you connect me with a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need a real representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a human to continue talking</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you connect me with a live agent instead thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i chat with a human instead of this chatbot</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human at this time</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How can i talk to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please may i chat with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please redirect me to a human assistant</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i be transferred to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk with a human now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a technical support representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to someone in customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Switch me to a live person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Speak to human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you give me a person to speak to about this</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is a live associate available for assistance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please forward me to customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a live agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please redirect me to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Put me through to a human agent please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to talk to a human instead of the chat</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i be connected with a human agent?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to speak to a human agent now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This chatbot is not useful please direct me to a operator</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need customer service help from a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to the supervisor</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Begin chatting with human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to chat with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a live person now if possible please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a way i could speak with some one on the phone</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>This bank transaction is very complex so i need to talk to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to customer service</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need further assistance can you transfer me to someone who is able to help?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you put me in touch with a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please give me a human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please connect me with a human representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk with a customer service representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer to human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a live representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to a customer service representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you get me a human to speak with instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to talk with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I must speak to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I wish to speak with a representative now</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to confirm details of my last order</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to discuss my issue with an agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i have the number to an agent because you&apos;re not going to be able to assist me with this</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I will need to speak with a human about this issue thank you</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Please transfer me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i be transferred to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I think a real person could help me better</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak with a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>The automated system is not working for me can i speak to a human please</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>How can i chat with a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to be transferred to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Could i speak with a human agent about this problem</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I need to talk to a person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would better like to talk to a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i talk to a human instead</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you redirect me to a human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to speak to a live agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me with an actual human being</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak with a live human agent</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there a human available to help</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Transfer me to your help desk</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>End chat with chatbot and give me a representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Connect me to a customer representative</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can i speak to whoever is in charge of this department</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <description>Greet the user and review the pre-chat form, if used.</description>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+        </mlIntents>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>Goodbye_Entity</developerName>
+            <extractionType>Value</extractionType>
+            <label>Goodbye</label>
+            <mlSlotClassValues>
+                <value>Goodbye</value>
+            </mlSlotClassValues>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>Order_Number_Entity</developerName>
+            <extractionRegex>^[a-zA-Z0-9_.-]*$</extractionRegex>
+            <extractionType>Pattern</extractionType>
+            <label>Order Number</label>
+        </mlSlotClasses>
+        <name>Alex</name>
+    </botMlDomain>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ChatKey</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ContactId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.LiveChatVisitorId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Id</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <conversationChannelProviders>
+        <agentRequired>false</agentRequired>
+        <chatButtonName>Chat_Team</chatButtonName>
+    </conversationChannelProviders>
+    <description>A simple bot that helps your customers with common sales and service use cases.</description>
+    <label>Alex</label>
+    <logPrivateConversationData>true</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
+</Bot>

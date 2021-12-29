@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f58d4f3f-dcd2-451e-a79e-e9487e492910",
+  "appPageId" : "2aaa669e-9c0e-426e-8582-a633444b7271",
+  "configurationTags" : [ ],
+  "id" : "5269ef9d-8248-4806-b994-6f210ea84dc9",
+  "label" : "Appointments",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-appointments",
+  "type" : "route",
+  "urlPrefix" : "appointments"
+}

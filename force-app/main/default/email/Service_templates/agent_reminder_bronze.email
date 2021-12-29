@@ -1,0 +1,14 @@
+Hi {!Case.OwnerFirstName},
+
+You have 12h left to close the case {!Case.CaseNumber}
+{!Case.Link}
+
+Subject: {!Case.Subject}
+Type: {!Case.Type}
+Status: {!Case.Status}
+
+Account: {!Case.Account}
+Contact: {!Case.Contact}
+
+Best regards, 
+SLA automation

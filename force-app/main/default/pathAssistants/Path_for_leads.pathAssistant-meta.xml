@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Path for leads</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Closed - Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Closed - Not Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/li&gt;&lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Open - Not Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Working - Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

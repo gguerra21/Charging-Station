@@ -1,0 +1,7 @@
+Dear {!Contact.FirstName},
+
+Your case is now being reviewed by one of our agents.
+We'll be informing you of any progress on your case.
+
+Best Regards,
+{!Organization.Name}

@@ -1,0 +1,64 @@
+{
+  "appPageId" : "2aaa669e-9c0e-426e-8582-a633444b7271",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "e98737cd-be06-452b-ac37-c35f4ae82273",
+  "label" : "Opportunity Detail",
+  "regions" : [ {
+    "id" : "f3a4bcc2-97a0-4e4b-9469-5097148829e5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "593bfb0f-e94b-4076-9080-b8d5b0163992",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "timeline",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "e6b66de2-475a-42ee-b258-4bdc70f84c50",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c67c199c-571e-4a3f-9e7a-af00b2956a07",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f7c3f069-a006-4ede-8da6-dbd71d11ed96",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a05d0c27-2c2a-4725-aaf0-0cce5d6149bb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb53d370-a8a9-4d57-ac5d-8d02042a2208",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-006"
+}

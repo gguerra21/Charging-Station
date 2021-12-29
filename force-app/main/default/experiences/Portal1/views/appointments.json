@@ -1,0 +1,110 @@
+{
+  "appPageId" : "2aaa669e-9c0e-426e-8582-a633444b7271",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "f58d4f3f-dcd2-451e-a79e-e9487e492910",
+  "label" : "Appointments",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "71013ad7-2df4-47a2-b893-7ed8b4ac2a90",
+          "columns" : [ {
+            "UUID" : "f03a32bf-ad1a-4326-aed8-ba172913e53c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "71013ad7-2df4-47a2-b893-7ed8b4ac2a90",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "allowPrepopulatePrechatFields" : true,
+            "avatarImgURL" : "",
+            "codeSettingsName" : "",
+            "defaultMinimizedText" : "Chat with an Expert",
+            "displayHelpButton" : true,
+            "eswConfigurationJSON" : {
+              "baseCoreURL" : "https://guerra4-dev-ed.my.salesforce.com",
+              "baseLiveAgentContentURL" : "https://c.la2-c1-cdg.salesforceliveagent.com/content",
+              "baseLiveAgentURL" : "https://d.la2-c1-cdg.salesforceliveagent.com/chat",
+              "buttonId" : "5737Q000000XkAB",
+              "deploymentId" : "5727Q000000Xk1q",
+              "enabledFeatures" : [ "LiveAgent" ],
+              "entryFeature" : "LiveAgent",
+              "eswConfigDevName" : "Chat_Team",
+              "eswConfigId" : "04I7Q000000PDjUUAW",
+              "eswLiveAgentDevName" : "Chat_Team",
+              "gslbBaseURL" : "https://service.force.com",
+              "isOfflineCasesEnabled" : "0",
+              "orgId" : "00D7Q000000HZZv"
+            },
+            "externalScripts" : "",
+            "externalStyles" : "",
+            "fallbackRouting" : "",
+            "offlineSupportMinimizedText" : "Contact Us",
+            "offlineText" : "Agent Offline",
+            "onlineLoadingText" : "Loading",
+            "prechatBackgroundImgURL" : "",
+            "smallCompanyLogoImgURL" : "",
+            "snippetSettingsFile" : "",
+            "storageDomain" : "",
+            "waitingStateBackgroundImgURL" : ""
+          },
+          "componentName" : "forceCommunity:embeddedService",
+          "id" : "9b4199fc-e2ed-44fa-bcd1-39e09fa16098",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowLayout" : "oneColumn",
+            "flowName" : "runtime_appointmentbooking__Guest_Flow"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "98c08c07-d80f-459d-bfe0-8cc9e21952c0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f03a32bf-ad1a-4326-aed8-ba172913e53c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8a8b745c-a024-49f0-bbb6-b8582d817ba9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Appointments"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "62f3ce45-3f35-4274-ba4c-0cbc974a5d0f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "97da5407-ca89-4046-befb-21e465540955",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-appointments"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Portal.Content:Installation</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Installation</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Content:Maintenance</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Maintenance</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Content:Manuals</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Manuals</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Content:New Products</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>New Products</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Content:Software Updates</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Software Updates</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Content:Station A200</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Station A200</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Featured:Installation</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Installation</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Featured:Maintenance</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Maintenance</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Featured:Manuals</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Manuals</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Featured:New Products</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>New Products</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Featured:Software Updates</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Software Updates</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Navigational:Installation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Installation</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Navigational:Maintenance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Maintenance</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Navigational:Manuals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Manuals</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Navigational:New Products</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>New Products</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Portal.Navigational:Software Updates</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Software Updates</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

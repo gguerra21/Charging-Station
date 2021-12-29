@@ -1,0 +1,6 @@
+Hello {!Contact.Email},
+
+The Status of your shipment {!Shipment__c.Name} is: {!Shipment__c.Status__c}
+
+Best Regards,
+ChargingStation
